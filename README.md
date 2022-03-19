@@ -1,9 +1,6 @@
 --test
 --hi
 
-
-if game.GameId == 2655311011 then
-
     repeat wait() until game:IsLoaded()
 
     game:GetService("Players").LocalPlayer.Idled:Connect(function()
